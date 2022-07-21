@@ -1,0 +1,71 @@
+body {
+background: url(images/BG.jpg);
+background-size: 170%;
+}
+header {
+background: rgba( 167, 243, 134, 0.7);
+border: 1px solid black;
+}	
+img {
+width:29.4%;
+}	
+h1 {
+text-align: center;
+font-size: 160%;
+}
+h2 {
+font-size: 145%;
+text-align: center;
+}
+a {
+text-decoration: none;
+color: blue;
+}
+a:hover {
+color: black;
+text-decoration: none;
+}
+.box {
+background: rgba( 167, 243, 134, 0.7);
+margin-top: 2.5%;
+margin-left: 5%;
+margin-right: 5%;
+padding-top: 1.5%;
+padding-left: 1.5%;
+padding-right: 1.5%;
+padding-bottom: -1.5%;
+border: 1px solid black;
+}
+.box img {
+margin-top: 0.5%;
+margin-right: 1.5%;
+margin-left: 1.5%;
+margin-bottom: 1.5%;
+}	
+.crate {
+background: rgba( 167, 243, 134, 0.7);
+border: 1px solid black;
+padding: 0.2%;
+float: right;
+width: 24.4%;
+margin-right: 4.465%;
+margin-left: 4.465%;
+margin-bottom: 1.5%;
+box-sizing: border-box;
+text-align: center;
+}
+@media (min-width: 858px) {.crate {
+font-size: 83.5%;
+}}
+@media (min-width: 780px) {.crate {
+font-size: 83.5%;
+}}
+@media (min-width: 702px) {.crate {
+font-size: 83.5%;
+}}
+@media (min-width: 724px) {.crate {
+font-size: 83.5%;
+}}
+@media (max-width: 623px) {.crate {
+font-size: 83.5%;
+}}
